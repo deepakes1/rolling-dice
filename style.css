@@ -1,0 +1,54 @@
+.background {
+    width: 400px;
+    background-color: aquamarine;
+    margin: 50px auto;
+    padding: 7px;
+    
+}
+.heading {
+    font-size: 27px;
+}
+.box {
+    width: 120px;
+    display: flex;
+    height: 120px;
+    background-color: rgb(136, 117, 117);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.number {
+    align-self: flex-end;
+}
+
+.roll {
+  animation: roll-forward 1s;
+}
+
+@keyframes roll-forward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+   display: flex;
+   justify-content: center;
+}
+
+.but {
+    background-color: rgba(0, 0, 255, 0.645);
+    color: white;
+    padding: 3px 19px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    animation-direction: normal;
+}
